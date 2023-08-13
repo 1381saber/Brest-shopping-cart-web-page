@@ -4,29 +4,14 @@ body {
 }
 
 :root {
-    --primaryColor: #6d28d9;
-    --secondaryColor: #ede9fe;
-    --mainWhite: #fff;
-    --mainBlack: #222;
-    --mainGrey: #7c7c7c;
     --mainSpacing: 0.1rem;
     --mainTransition: all 0.3s linear;
-    --mainRed: #db2777;
-    --bodyColor: #f6f6f6;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    color: var(--mainBlack);
-    background: var(--mainWhite);
-    font-family: "Lato", sans-serif;
-    background-color: var(--bodyColor);
-    /* position: relative; */
 }
 
 body {
@@ -145,15 +130,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 1500px;
-
-    /* width: 80vw;
-    margin: 0 auto;
-    max-width: 1300px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    grid-column-gap: 2.8rem;
-    grid-row-gap: 4rem; */
+    max-width: 2400px;
+    justify-content: center;
 }
 
 .card {
@@ -203,7 +181,6 @@ body {
 }
 
 /* -------------- FOOTER -------------- */
-
 .main-footer {
     background-color: #29113e;
     color: #fff;
@@ -220,10 +197,14 @@ body {
     margin-bottom: 2rem;
 }
 
+h6 {
+    margin-right: 30px;
+}
+
 .footer__item {
     margin-top: 1.3rem;
     margin-bottom: 1.2rem;
-    margin-right: 3rem;
+    margin-right: 40px;
 }
 
 .footer__item a {
